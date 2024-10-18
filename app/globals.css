@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 :root {
   --background: #ffffff;
@@ -18,7 +17,12 @@
 
 body {
   background: var(--background);
-  font-family: "DM Sans", sans-serif;
+}
+
+.logo {
+  width: 70vw;
+  height: auto;
+  width: 100%;
 }
 
 @layer utilities {

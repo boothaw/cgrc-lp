@@ -7,13 +7,11 @@ export default function Home() {
     <div className='grid grid-rows-[20px_1fr_20px] justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 '>
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
         <Image
-          className='max-w-2xl'
+          className='max-w-2xl logo'
           src={Logo}
           alt='CGRC logo'
           width={0}
           height={0}
-          sizes='50vw'
-          style={{ width: "100%", height: "auto" }}
           priority
         />
       </main>
