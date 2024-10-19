@@ -9,7 +9,7 @@ const Sans = localFont({
 });
 
 export const metadata = {
-  title: "Contxt GRC Advisors, LLC.",
+  title: "Context GRC Advisors, LLC.",
   description: "Your Experience, Our Expertise",
 };
 
